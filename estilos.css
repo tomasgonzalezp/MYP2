@@ -1,0 +1,109 @@
+header{
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+section{
+    margin-left: 5%;
+    width: 90%;
+    align-items: center;
+}
+nav{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#barranav{
+    margin-left: 10px;
+}
+#search{
+    border-radius: 20px;
+}
+#signin{
+    border-radius: 20px; 
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+.row{
+    margin-top: 30px;
+}
+
+#main{
+    margin: 0;
+}
+
+#uno{
+    background-color: cadetblue;
+    border-radius: 20px;
+    width: 49%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1%;
+}
+#dos{
+    background-color: cadetblue;
+    border-radius: 20px;
+    width: 49%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1%;
+}
+#seassonpass{
+    width:100%;
+}
+#carouselExampleFade{
+    margin-top: 30px;
+}
+#topchart{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: left;
+    padding-left: 20px;
+}
+#rowtopchart{
+    width: 100%;
+}
+#topchart1{
+    height: 500px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+#topchart2{
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+#topchart3{
+    height: 500px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+#topchart4{
+    height: 500px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+#especialpeliculas{
+    height: 400px;
+    background-color: grey;
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

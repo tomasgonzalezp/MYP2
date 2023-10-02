@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AppleTV+</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+  </head>
+  <body>
+      <header>
+        
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <div class="container-fluid" id="barranav">
+            <a class="navbar-brand" href="INDEX.HTML">Apple TV+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="peliculas.HTML">PELICULAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="series.HTML">SERIES</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="page">
+                    CATEGORIAS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Accion</a></li>
+                    <li><a class="dropdown-item" href="#">Animacion</a></li>
+                    <li><a class="dropdown-item" href="#">Drama</a></li>
+                    <li><a class="dropdown-item" href="#">Comedia</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="mls.html">MLS</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                <button class="btn " type="submit">Search</button>
+              </form>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" id="signin">
+                Sign in
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">SIGN IN</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </header>
+
+      <section> 
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6" id="main1">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" href="peliculas.HTML">
+                    <img src="imagenes/defending jacob.webp" class="d-block w-100" alt="..." >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/ghosted.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/morning show.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="row" id="main">
+                <div class="col-12" >
+                  <img src="imagenes/seasson pass.png">
+                </div>
+                <div class="col-6">
+                  Level 2: .col-8 .col-sm-6
+                </div>
+                <div class="col-6">
+                  Level 2: .col-4 .col-sm-6
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--main-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 " id="uno">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" href="peliculas.HTML">
+                  <img src="imagenes/defending jacob.webp" class="d-block w-100" alt="..." >
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/ghosted.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/morning show.webp" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" id="dos">
+            <img src="imagenes/seasson pass" id="seassonpass">
+          </div>
+          </div>
+        </div>
+      </div> 
+
+      <!--top chart-->
+      <button type="button" class="btn btn-dark" id="topchart">TOP CHART</button>
+      <div class="container-fluid" id="rowtopchart">
+        <div class="row" >
+          <div class="col-sm-3" id="topchart1">
+            <img src="imagenes/black bird.webp" id="phchart1">
+          </div>
+          <div class="col-sm-3" id="topchart2">
+            <img src="imagenes/tetris.webp">
+          </div>
+          <div class="col-sm-3" id="topchart3">
+            <img src="imagenes/ted lasso.webp">
+          </div>
+          <div class="col-sm-3" id="topchart4">
+            <img src="imagenes/defending jacob.webp">
+          </div>
+        </div>
+      </div>
+
+      <!--seguir viendo-->
+      <button type="button" class="btn btn-dark" id="topchart">SEGUIR VIENDO</button>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="imagenes/black bird.webp">
+          </div>
+          <div class="col-sm-3">
+            <img src="imagenes/tetris.webp">
+          </div>
+          <div class="col-sm-3">
+            <img src="imagenes/ted lasso.webp">
+          </div>
+          <div class="col-sm-3">
+            <img src="imagenes/defending jacob.webp">
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!--link de java-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <footer>
+
+    </footer>
+  </body>
+</html>
